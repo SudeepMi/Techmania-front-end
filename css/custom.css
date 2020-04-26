@@ -1,0 +1,351 @@
+.brand img{
+    width: 180px;
+}
+.menu{
+    display: none;
+}
+
+.section-title {
+    line-height: 36px;
+    padding: 55px 25px;
+    border-left: 2px solid rgb(75, 78, 83);
+}
+
+.section-title, .section-title-2 {
+    font-weight: 300;
+    font-size: 30px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    color: rgb(75, 78, 83);
+    margin: 0px;
+}
+.page-section{
+    margin-bottom: 12px;
+    box-shadow: 15px 16px 10px -22px #16a209;
+}
+
+.section-what-we-do {
+    padding: 3em 0;
+}
+.page-section, .rs-fullscr-container, .tp-banner {
+    width: 100%;
+    position: relative;
+}
+.page-section, .rs-fullscr-container {
+    display: block;
+    overflow: hidden;
+}
+
+.fes6-box {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+.fes6-box .icon {
+    color: rgb(75, 78, 83);
+    font-size: 65px;
+    line-height: 64px;
+}
+
+.fes6-box h3 {
+    font-weight: 400;
+    margin: 0px;
+}
+.fes5-box h3, .fes6-box h3 {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: rgb(75, 78, 83);
+}
+.grey-light-bg {
+    background-color: rgb(238, 238, 238);
+}
+
+.fes7-box {
+    position: relative;
+    padding-left: 47px;
+    padding-bottom: 10px;
+}
+.fes7-box-icon, .fes8-box-icon {
+    position: absolute;
+    top: 2px;
+    left: 0px;
+    color: rgb(75, 78, 83);
+    font-size: 30px;
+}
+.fes7-img-cont {
+    padding: 0px;
+}
+.fes7-img, .fes7-img-constr, .fes7-img-cont {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+    overflow: hidden;
+}
+.fes7-img, .fes7-img-constr {
+    left: 0px;
+    z-index: 0;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.features-detail {
+    padding: 3em 0px;
+}
+.feature-para {
+    margin-bottom: 15px;
+}
+.fes8-title-cont {
+    position: relative;
+    padding-left: 52px;
+    padding-bottom: 15px;
+}
+.fes8-title-cont h3 {
+    color: rgb(75, 78, 83);
+    font-weight: 400;
+    margin: 0px;
+}
+
+.fes7-box h3, .fes8-title-cont h3 {
+    font-size: 16px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+.process img{
+    width: 100%;
+    display: block;
+}
+.testimonial-bg{
+   
+        will-change: background-position;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(45deg, #1a488e, #6694b9);
+}
+.testimonial-text-cont {
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    font-family: Lato, Arial, Helvetica, sans-serif;
+    font-size: 36px;
+    line-height: 36px;
+    font-weight: 100;
+    color: #f1f1f1;
+    text-align: center;
+}
+
+.testimonial-text {
+    display: block;
+}
+
+.testimonial-slider2 {
+    padding: 3em 0;
+}
+
+.owl-white-bg {
+    background: #eee;
+}
+
+.owl-carousel .owl-wrapper-outer.autoHeight {
+    -webkit-transition: height .5s ease-in-out;
+    -moz-transition: height .5s ease-in-out;
+    -ms-transition: height .5s ease-in-out;
+    -o-transition: height .5s ease-in-out;
+    transition: height .5s ease-in-out;
+}
+
+.owl-carousel .owl-wrapper-outer {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    z-index: 5;
+}
+.testimonial-slider {
+    display: flex;
+    align-items: center;
+}
+
+.owl-white-bg {
+    background: #eee;
+}
+
+.testimonial-2 p {
+    color: #4b4e53;
+    font-size: 17px;
+    line-height: 32px;
+    padding: 0;
+}
+
+.control_active{
+    opacity: 1 !important;
+    background: #0000008a;
+    color: white !important;
+}
+.ts-author-img {
+    display: block;
+    margin: 0 auto;
+    /* position: absolute; */
+    bottom: 0;
+    right: 0;
+    width: 110px;
+    height: 110px;
+}
+.ts-author-img img {
+    width: 100%!important;
+    height: 100%!important;
+    object-fit: cover!important;
+    border-radius: 62%!important;
+}
+
+.ts-author-info {
+    margin-top: 10px;
+}
+
+.ts-author-cont {
+    text-align: center;
+}
+
+.section-footer {
+    padding: 3em 0;
+}
+
+.footer-2-copy-cont {
+    padding-top: 30px;
+    border-top: 1px solid #eee;
+}
+.left{
+    float: left;
+}
+
+.logo-footer-cont {
+    margin-bottom: 50px;
+}
+.logo-footer {
+    /* max-height: 30px; */
+    width: 100%;
+}
+.footer-widget .links-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.contact-form-wrapper{
+    width: 90%;
+    margin: auto;
+}
+.contact-form-wrapper .contact-form{
+    padding: 10px 0px;
+}
+.contact-form .form-input{
+    margin: 10px 0px;
+}
+.contact-form .input{
+    width: 100%;
+    outline: none;
+    min-height: 40px;
+    border: none;
+    border-bottom: 1px solid gray;
+    font-family: inherit;
+}
+.contact-form textarea{
+    height: 120px;
+}
+#back-top {
+    background: #888888;
+    position: fixed;
+    bottom: 99px;
+    right: 19px;
+    padding: 5px;
+    margin: 0;
+    z-index: 20;
+}
+#back-top a {
+    display: block;
+    color: #ffffff;
+    font-size: 34px;
+    z-index: 999;
+}
+.about-us-section{
+    max-height: 280px;
+    overflow: hidden;
+}
+.about-us{
+    margin-top: 10px;
+}
+.member-image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.member-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.member h3 {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+.member span {
+    font-size: 14px;
+    font-style: normal;
+}
+.member {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.team-social {
+    list-style: none;
+    margin: 15px 0 0;
+    padding: 0;
+    position: absolute;
+    top: 0px;
+    left: 22px;
+    background: #2a77e6;
+    width: min-content;
+}
+.team-social li {
+    display: inline-block;
+    font-size: 18px;
+    margin: 0 5px;
+}
+.team-social a {
+    color: #ffffff;
+}
+.about-us p{
+    line-height: 2.2;
+}
+.h7{
+    max-height: 69px;
+}
+.services-cont{
+    margin: 20px auto;
+    padding: 20px 0px;
+    box-shadow: 1px 4px 16px -12px #7165ff;
+}
+.services-cont h4{
+    text-align: center;
+}
+.services-cont .icon{
+    width: 100%;
+    text-align: center;
+    font-size: 70px;
+}
+.services-cont li{
+    padding: 10px 0px;
+}
+.page-section{
+    z-index: -1;
+}
+.focus{
+        z-index: -58;
+        position: relative;
+        opacity: 2;
+    
+}

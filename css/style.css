@@ -1,0 +1,458 @@
+html,body,h1,h2,h3{
+    margin:0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    vertical-align: baseline;
+    font-size: 14px;
+    line-height: 25px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: rgb(126, 128, 130);
+    -webkit-font-taboothing: antialiased !important;
+    text-size-adjust: 100% !important;
+    outline: 0px;
+}
+
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:  #828282f7;;
+}
+
+a:hover {
+    color: #2a77e6;
+}
+
+a,body, div, form, html, i, iframe, img {
+    margin: 0px;
+    padding: 0px;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    outline: 0px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: rgb(75, 78, 83);
+    font-family: Lato, Arial, Helvetica, sans-serif;
+
+}
+
+
+ .full-fluid::after, .full-fluid::before, .full::after, .full::before, .row::after, .row::before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 45px;
+    margin: 25px 0px 5px;
+    font-weight: 400;
+}
+
+header{
+    padding: 0;
+    font-size: 14px;
+}
+.wrapper{
+    width: 100%;
+}
+.wrapper header{
+    max-height: 70px;
+    width: 100%;
+    background: #2b2b2b;
+    padding: 5px;
+
+}
+.wrapper header ul{
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    list-style: none;
+    padding: 0px 0px;
+    /* margin: 0; */
+    margin: auto;
+    
+}
+
+blockquote {
+    /* padding: 10px 20px 10px 30px; */
+    margin: 0 0 20px;
+    border-left: 3px solid #eee;
+    font-size: 16px;
+}
+
+blockquote, blockquote p {
+    font-style: normal;
+    font-size: 21px;
+    line-height: 32px;
+    color: #4b4e53;
+    font-weight: 100;
+}
+
+
+.wrapper header ul .head_left {
+    float: left;
+    color: #ffffff;
+    margin: 0 50px 0 0px;
+
+}
+.wrapper header ul .head_right{
+    float: right;
+    color: #9a9494;
+    margin: 0 50px 0 0;
+    font-weight: bold;
+}
+.head_btn button{
+    background: #e4b700;;
+    outline: none;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 9px;
+    width: 100px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+header i {
+    color: #2a77e6;;
+}
+.active{
+    color: #2a77e6 !important;
+}
+
+.full{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.relative {
+    position: relative;
+    padding: 0 3em 30px 3em;
+}
+.full-2 {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.nav li{
+    list-style: none;
+    display: inline;
+}
+.brand{
+    width: 40%;
+    float: left;
+    padding: 15px 0;
+}
+
+.nav{
+    width: 60%;
+    float: right;
+    padding: 15px 0px;
+    font-size: taball;
+    font-weight: bold;
+    text-align: right;
+}
+
+.h-10{
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.h-20{
+    height: 80px;
+    padding: 0px;
+    margin: 0px;
+}
+
+.pa{
+    padding: 20px 40px;
+}
+
+.nav a{
+    margin: 0 20px;
+}
+.nav-toggler{
+    width: 60%;
+    float: right;
+    text-align: end;
+    font-size: 60px;
+    display: none;
+}
+.col-3{
+    width: 25%;
+}
+.col-6{
+    width: 50%;
+}
+.d-flex {
+    display: flex;
+    color: wheat;
+    width:100%;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.h-50 {
+    min-height: max-content;
+    background-color: #504f4fd4;
+}
+video{
+    display: block;
+}
+.t-right{
+    text-align: right;
+}
+.t-center{
+    text-align: center;
+}
+.u-case{
+    text-transform: uppercase;
+}
+.h-2{
+    height: 42%;
+    margin-top: 20%;
+}
+.h-2 i{
+    font-size: 25px;
+    padding: 5px;
+}
+
+.col-8{
+    width: 75%;
+}
+.col-4{
+    width: 25%;
+}
+
+.p-36{
+    padding: 30px 0px;
+}
+.btn{
+    outline: none;
+    border: none;
+    margin-top: -9px;
+}
+
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+
+.btn-block{
+    color: white;
+    width: 90%;
+    padding: 10px 13px;
+    border-radius: 20px;
+    line-height: 1.5;
+}
+.mt-2{
+    margin-top: 15px;
+}
+.width-100{
+    width: 100%;
+    display: block;
+}
+.btn-dark{
+    background: #000000;
+}
+.bold{
+    font-weight: bold;
+}
+.wh{
+    color: white;
+}
+.col-des-4{
+    width: 33.3333%;
+}
+
+.no-overflow{
+    overflow: hidden;
+}
+.block{
+    display: block;
+    width: 100%;
+}
+
+.button{
+    outline: unset;
+    border: none;
+    color: unset;
+    background: unset;
+    padding: 10px 20px;
+}
+.brand-btn{
+    background-color: #2a77e6;
+    color: white;
+}
+
+.full {
+    width: 90%;
+}
+
+.col-large-1, .col-large-10, .col-large-11, .col-large-12, .col-large-2, .col-large-3, .col-large-4, .col-large-5, .col-large-6, .col-large-7, .col-large-8, .col-large-9, .col-des-1, .col-des-10, .col-des-11, .col-des-12, .col-des-2, .col-des-3, .col-des-4, .col-des-5, .col-des-6, .col-des-7, .col-des-8, .col-des-9, .col-tab-1, .col-tab-10, .col-tab-11, .col-tab-12, .col-tab-2, .col-tab-3, .col-tab-4, .col-tab-5, .col-tab-6, .col-tab-7, .col-tab-8, .col-tab-9, .col-ph-1, .col-ph-10, .col-ph-11, .col-ph-12, .col-ph-2, .col-ph-3, .col-ph-4, .col-ph-5, .col-ph-6, .col-ph-7, .col-ph-8, .col-ph-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.col-des-1, .col-des-2, .col-des-3, .col-des-4, .col-des-5,
+.col-des-6, .col-des-7, .col-des-8, .col-des-9, .col-des-10, 
+.col-des-11, .col-des-12,.col-large-1, .col-large-10, .col-large-11, .col-large-12, .col-large-2, .col-large-3, .col-large-4, .col-large-5, .col-large-6, .col-large-7, .col-large-8, .col-large-9, .col-des-1, .col-des-10, .col-des-11, .col-des-12, .col-des-2, .col-des-3, .col-des-4, .col-des-5, .col-des-6, .col-des-7, .col-des-8, .col-des-9, .col-tab-1, .col-tab-10, .col-tab-11, .col-tab-12, .col-tab-2, .col-tab-3, .col-tab-4, .col-tab-5, .col-tab-6, .col-tab-7, .col-tab-8, .col-tab-9, .col-ph-1, .col-ph-10, .col-ph-11, .col-ph-12, .col-ph-2, .col-ph-3, .col-ph-4, .col-ph-5, .col-ph-6, .col-ph-7, .col-ph-8, .col-ph-9 
+.col-tab-1,.col-tab-2,.col-tab-3,.col-tab-4,.col-tab-5,.col-tab-6,.col-tab-7,.col-tab-8,
+    .col-tab-9,.col-tab-10,.col-tab-11,.col-tab-12
+{
+float: left;
+}
+
+@media (min-width: 992px){
+    .full {
+        width: 90%;
+    }
+    .col-des-1{
+        width: 100%;
+    }
+    .col-des-2{
+        width: 50%;
+    }
+    .col-des-3 {
+        width: 25%;
+    }
+    .col-des-4{
+        width: 33.3333%;
+    }
+    .col-des-5{
+        width: 41.6667%;
+    }
+    .col-des-6{
+        width: 50%;
+    }
+    .col-des-7{
+        width: 53.223%;
+    }
+    .col-des-8{
+        width:66.667% ;
+    }
+    .col-des-9{
+        width: 75%;
+    }
+    .col-des-offset-6{
+        margin-left: 50%;
+    }
+
+}
+
+
+@media (max-width: 992px){
+
+    .col-tab-1{
+        width: 100%;
+    }
+    .col-tab-2{
+        width: 50%;
+    }
+    .col-tab-3 {
+        width: 25%;
+    }
+    .col-tab-4{
+        width: 33.3333%;
+    }
+    .col-tab-5{
+        width: 41.6667%;
+    }
+    .col-tab-6{
+        width: 50%;
+    }
+    .col-tab-7{
+        width: 53.223%;
+    }
+    .col-tab-8{
+        width:66.667% ;
+    }
+    .col-tab-9{
+        width: 75%;
+    }
+    .col-tab-12{
+        width: 100%;
+    }
+   
+
+    .col-tab-1,.col-tab-2,.col-tab-3,.col-tab-4,.col-tab-5,.col-tab-6,.col-tab-7,.col-tab-8,
+    .col-tab-9,.col-tab-10,.col-tab-11,.col-tab-12{
+        float: left;
+    }
+    .full {
+        width: 90%;
+    }
+    .nav{
+        display: none;
+        position: absolute;
+        background: rgb(255, 255, 255);
+        z-index: 31;
+        width: 150px;
+        right: 20px;
+        top: 133px;
+        box-shadow: 14px 17px 13px -18px;
+    }
+    .nav li{
+        display: list-item;
+    }
+    .nav-toggler{
+        display: block;
+    }
+
+}
+@media (max-width: 640px){
+    .full{
+        width: 99%;
+    }
+    .col-ph-1{
+        width: 100%;
+    }
+    .col-ph-2{
+        width: 50%;
+    }
+    .col-ph-3 {
+        width: 25%;
+    }
+    .col-ph-4{
+        width: 33.3333%;
+    }
+    .col-ph-5{
+        width: 41.6667%;
+    }
+    .col-ph-6{
+        width: 50%;
+    }
+    .col-ph-7{
+        width: 100%;
+    }
+    .col-ph-8{
+        width: 100%;
+    }
+    .col-ph-9{
+        width: 100%;
+    }
+    .col-ph-12{
+        width: 100%;
+    }
+}
