@@ -35,7 +35,7 @@
             <div class="nav-toggler" id="nav-toggler">
               <span><i class="la la-ellipsis-h"></i></span>
             </div>
-            <div class="nav">
+            <div class="nav" id="nav">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="contact.html">CONTACT</a></li>
                 <li><a href="service.html">SERVICE</a></li>
@@ -55,7 +55,7 @@
 We work closely with our partners and our clients to provide the best solutions according to their various needs and we look forward to hearing from you.</p>
     </div>
       </div>
-      <div class="page-section team-image">
+      <div class="team-image">
         <div class="full">
         <h2 align="center" style="margin-bottom:50px">OUR TEAM</h2>
       
@@ -68,7 +68,7 @@ We work closely with our partners and our clients to provide the best solutions 
             <span>C.E.O</span><br>
             <span></span>
 
-            <ul class="team-social" style="display: none;">
+            <ul class="team-social" >
               <li><a href="#"><span aria-hidden="true" class="la la-facebook"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-twitter"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-dribbble"></span></a></li>
@@ -82,7 +82,7 @@ We work closely with our partners and our clients to provide the best solutions 
             <span>Operation Manager</span><br>
             <span></span>
 
-            <ul class="team-social" style="display: none;">
+            <ul class="team-social">
               <li><a href="#"><span aria-hidden="true" class="la la-facebook"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-twitter"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-dribbble"></span></a></li>
@@ -95,7 +95,7 @@ We work closely with our partners and our clients to provide the best solutions 
             <h3>Sakcham Kadayat</h3>
             <span>Front-end Developer</span><br>
 
-            <ul class="team-social" style="display: none;">
+            <ul class="team-social" >
               <li><a href="#"><span aria-hidden="true" class="la la-facebook"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-twitter"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-dribbble"></span></a></li>
@@ -107,7 +107,7 @@ We work closely with our partners and our clients to provide the best solutions 
             </div>
             <h3>Bibek Angde</h3>
             <span>Web Developer</span><br>
-            <ul class="team-social" style="display: none;">
+            <ul class="team-social"  id="team-social">
               <li><a href="#"><span aria-hidden="true" class="la la-facebook"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-twitter"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-dribbble"></span></a></li>
@@ -120,7 +120,7 @@ We work closely with our partners and our clients to provide the best solutions 
             </div>
             <h3>Sudeep Mishra</h3>
             <span>Web Developer</span><br>
-            <ul class="team-social" style="display: none;">
+            <ul class="team-social" >
               <li><a href="#"><span aria-hidden="true" class="la la-facebook"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-twitter"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-dribbble"></span></a></li>
@@ -133,7 +133,7 @@ We work closely with our partners and our clients to provide the best solutions 
             </div>
             <h3>Garima KC</h3>
             <span>Mobile App  Developer</span><br>
-            <ul class="team-social" style="display: none;">
+            <ul class="team-social" >
               <li><a href="#"><span aria-hidden="true" class="la la-facebook"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-twitter"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-dribbble"></span></a></li>
@@ -146,7 +146,7 @@ We work closely with our partners and our clients to provide the best solutions 
             <h3>Ketan Maharjan</h3>
             <span>Graphics Designer</span><br>
 
-            <ul class="team-social" style="display: none;">
+            <ul class="team-social" >
               <li><a href="#"><span aria-hidden="true" class="la la-facebook"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-twitter"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-dribbble"></span></a></li>
@@ -159,7 +159,7 @@ We work closely with our partners and our clients to provide the best solutions 
             <h3>Prateek Bikram</h3>
             <span>Seo Consultant/QA</span><br>
 
-            <ul class="team-social" style="display: none;">
+            <ul class="team-social" >
               <li><a href="#"><span aria-hidden="true" class="la la-facebook"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-twitter"></span></a></li>
               <li><a href="#"><span aria-hidden="true" class="la la-dribbble"></span></a></li>
@@ -230,38 +230,6 @@ We work closely with our partners and our clients to provide the best solutions 
       </p>
 
 </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
 <script src="js/home.js"></script>
-<script>
-  $("#owl-demo").hover(function(){
-    $(".owl-next").addClass('control_active')
-    $(".owl-prev").addClass('control_active')
-
-  })
-  $("#nav-toggler").click(function(e) {
-      $('.nav').fadeToggle('1000');
-  })
-  $("#back-top").hide()
-  var  windowT = $(window);
-  
-   $(function() {
-    windowT.scroll(function() {
-        $(this).scrollTop() > 100 ? $("#back-top").fadeIn() : $("#back-top").fadeOut()
-    })
-    $("#back-top a").click(function() {
-        return $("body,html").animate({
-            scrollTop: 0
-        }, 600), !1
-    })
-  })
-  $(".member").each(function(){
-        $(this).hover(function(){
-            $(this).find('.team-social').fadeToggle()
-        })
-  })
- 
-</script>
-
 </body>
 </html>

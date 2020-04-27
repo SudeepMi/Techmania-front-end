@@ -35,7 +35,7 @@
             <div class="nav-toggler" id="nav-toggler">
               <span><i class="la la-ellipsis-h"></i></span>
             </div>
-            <div class="nav">
+            <div class="nav" id="nav">
                 <li><a href="index.html">HOME</a></li>
                 <li><a href="contact.html" class="active">CONTACT</a></li>
                 <li><a href="service.html">SERVICE</a></li>
@@ -187,32 +187,9 @@
       </p>
 
 </div>
-<script src="js/jquery.min.js"></script>
-<script src="js/owl.carousel.min.js"></script>
-<script src="js/home.js"></script>
-<script>
-  $("#owl-demo").hover(function(){
-    $(".owl-next").addClass('control_active')
-    $(".owl-prev").addClass('control_active')
 
-  })
-  $("#nav-toggler").click(function(e) {
-      $('.nav').toggle('2000');
-  })
-  $("#back-top").hide()
-  var  windowT = $(window);
-  
-   $(function() {
-    windowT.scroll(function() {
-        $(this).scrollTop() > 100 ? $("#back-top").fadeIn() : $("#back-top").fadeOut()
-    })
-    $("#back-top a").click(function() {
-        return $("body,html").animate({
-            scrollTop: 0
-        }, 600), !1
-    })
-  })
-</script>
+<script src="js/home.js"></script>
+
 
 </body>
 </html>

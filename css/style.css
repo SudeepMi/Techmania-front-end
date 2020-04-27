@@ -43,17 +43,6 @@ h1, h2, h3, h4, h5, h6 {
 
 }
 
-
- .full-fluid::after, .full-fluid::before, .full::after, .full::before, .row::after, .row::before {
-    display: table;
-    content: " ";
-    clear: both;
-}
-
-::after, ::before {
-    box-sizing: border-box;
-}
-
 h1 {
     font-size: 32px;
     line-height: 45px;
@@ -65,31 +54,11 @@ header{
     padding: 0;
     font-size: 14px;
 }
-.wrapper{
-    width: 100%;
-}
-.wrapper header{
-    max-height: 70px;
-    width: 100%;
-    background: #2b2b2b;
-    padding: 5px;
-
-}
-.wrapper header ul{
-    width: 100%;
-    height: 100%;
-    color: #ffffff;
-    list-style: none;
-    padding: 0px 0px;
-    /* margin: 0; */
-    margin: auto;
-    
-}
 
 blockquote {
     /* padding: 10px 20px 10px 30px; */
     margin: 0 0 20px;
-    border-left: 3px solid #eee;
+    /* border-left: 3px solid #eee; */
     font-size: 16px;
 }
 
@@ -102,28 +71,7 @@ blockquote, blockquote p {
 }
 
 
-.wrapper header ul .head_left {
-    float: left;
-    color: #ffffff;
-    margin: 0 50px 0 0px;
 
-}
-.wrapper header ul .head_right{
-    float: right;
-    color: #9a9494;
-    margin: 0 50px 0 0;
-    font-weight: bold;
-}
-.head_btn button{
-    background: #e4b700;;
-    outline: none;
-    border: none;
-    padding: 6px 10px;
-    border-radius: 9px;
-    width: 100px;
-    font-weight: bold;
-    margin-top: -5px;
-}
 header i {
     color: #2a77e6;;
 }
@@ -289,7 +237,7 @@ video{
     overflow: hidden;
 }
 .block{
-    display: block;
+    display: block !important;
     width: 100%;
 }
 
@@ -309,6 +257,16 @@ video{
     width: 90%;
 }
 
+.full-fluid::after, .full-fluid::before, .full::after, .full::before, .row::after, .row::before {
+    display: table;
+    content: " ";
+    clear: both;
+}
+
+::after, ::before {
+    box-sizing: border-box;
+}
+
 .col-large-1, .col-large-10, .col-large-11, .col-large-12, .col-large-2, .col-large-3, .col-large-4, .col-large-5, .col-large-6, .col-large-7, .col-large-8, .col-large-9, .col-des-1, .col-des-10, .col-des-11, .col-des-12, .col-des-2, .col-des-3, .col-des-4, .col-des-5, .col-des-6, .col-des-7, .col-des-8, .col-des-9, .col-tab-1, .col-tab-10, .col-tab-11, .col-tab-12, .col-tab-2, .col-tab-3, .col-tab-4, .col-tab-5, .col-tab-6, .col-tab-7, .col-tab-8, .col-tab-9, .col-ph-1, .col-ph-10, .col-ph-11, .col-ph-12, .col-ph-2, .col-ph-3, .col-ph-4, .col-ph-5, .col-ph-6, .col-ph-7, .col-ph-8, .col-ph-9 {
     position: relative;
     min-height: 1px;
@@ -325,6 +283,9 @@ float: left;
 }
 
 @media (min-width: 992px){
+    .carousel{
+        padding-top: 20% !important;
+    }
     .full {
         width: 90%;
     }
@@ -363,6 +324,7 @@ float: left;
 
 
 @media (max-width: 992px){
+
 
     .col-tab-1{
         width: 100%;
@@ -420,8 +382,15 @@ float: left;
         display: block;
     }
 
+    .carousel{
+      min-height: 400px;
+    }
+
 }
 @media (max-width: 640px){
+    .carousel{
+       min-height: 668px;
+    }
     .full{
         width: 99%;
     }
