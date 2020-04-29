@@ -164,6 +164,7 @@ header i {
 }
 video{
     display: block;
+    width: 100%;
 }
 .t-right{
     text-align: right;
