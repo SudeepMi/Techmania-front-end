@@ -234,6 +234,9 @@
     width: 90%;
     margin: auto;
 }
+.about-us img{
+    width: 100%;
+}
 .contact-form-wrapper .contact-form{
     padding: 10px 0px;
 }
